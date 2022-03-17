@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String Template</h1>
+    <script>
+        const firstName = 'sultan'
+        const midName = 'ez'
+        const lastName = 'Setiawan'
+        const fullName = `Name : ${firstName} ${midName} ${lastName}`
+        console.log(fullName)
+
+        const nilai = 50
+        const lulus = `Nilai : ${nilai > 60}`
+        console.log(lulus)
+
+        const perkenalan = `Hai, nama saya ${fullName}
+saya lulus dari sekolah dengan nilai ${nilai}
+jadi saya ${lulus}`
+        document.writeln("<pre>")
+        document.write(perkenalan)
+        document.writeln("</pre>")
+    </script>
+</body>
+</html>
